@@ -32,4 +32,12 @@ rules:
       - events
     verbs:
       - create
+  - apiGroups:
+      - ""
+    resources:
+      - nodes
+    verbs:
+      - list
+      - get
+      - watch
 {{- end }}
